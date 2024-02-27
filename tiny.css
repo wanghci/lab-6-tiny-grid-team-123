@@ -1,0 +1,22 @@
+@media only screen and (max-width: 375px) {
+    .wrapper {
+      display: grid;
+      grid-template-areas:
+        'content';
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
+  
+    .main-head,
+    .main-nav,
+    .side,
+    .ad,
+    .main-footer {
+      display: none;
+    }
+  
+    .content {
+      grid-area: content;
+    }
+  }
+  
